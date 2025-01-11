@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppines' sans-serif; 
+    
+ }
+
+
+body{
+    color: black;
+    margin: 20px;
+}
+
+.img{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.btn1{
+    margin: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #000;
+    color: white;
+}
+.btn1:hover{
+    background-color: #302f2f;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.logo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    color: #000;
+}
+
+.navbar a:active {
+    color: black;
+}
+
+.home {
+    height: 100vh;
+    background: url() no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    position: relative;
+    font-size: 36px;
+    font-weight: 500px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    
+}
+
+
+.home-content h1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-content p {
+    position: relative;
+    font-size: 16px;
+    margin: 20px 0 40px;
+    font-family: sans-serif;
+
+}
+
+ .btn{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #000;
+    color: white;
+}
+.btn:hover{
+    background-color: #1f1e1e;
+}
+
+.home-content .btn-box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    
+}
+
+.main{
+    height: 70px;
+    display: flex;
+    gap: 6%;
+}
+
+.amzon{
+    mix-blend-mode: multiply;
+}
+
+.dribble{
+    mix-blend-mode: multiply;
+}
+
+.hubspot{
+    mix-blend-mode: multiply;
+}
+
+.notion{
+    mix-blend-mode: multiply;
+}
+
+.netflix{
+    mix-blend-mode: multiply;
+}
+
+.zoom{
+    mix-blend-mode: multiply;
+}
+
+
+
+
+
+
